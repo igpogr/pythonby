@@ -1,18 +1,28 @@
 #Python.v1.
  
-a=complex;
-b=complex;
+a = int(input())
+b = int(input())
  
 class Calculations(a, b):
  
   def addition(a, b):
     return a + b
+    except ValueError:
+    print('Wrong input')
  
   def subtraction(a, b):
     return a - b
+    except ValueError:
+    print('Wrong input')
  
   def division(a, b):
     return a / b
+    except ZeroDivisionError:
+    print('Wrong action')	
+    except ValueError:
+    print('Wrong input')
  
   def multiplication(a, b):
-     return a * b
+    return a * b
+    except ValueError:
+    print('Wrong input')

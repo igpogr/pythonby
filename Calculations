@@ -1,7 +1,7 @@
 #Python.v1.
  
-a = int(input())
-b = int(input())
+a = float(input())
+b = float(input())
  
 class Calculations(a, b):
  
